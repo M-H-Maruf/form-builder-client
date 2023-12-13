@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="max-w-[1250px] h-full navbar mx-auto px-0 py-20">
+      <div className="max-w-[1250px] h-full navbar mx-auto px-0 py-10">
         <Outlet></Outlet>
       </div>
     </>
