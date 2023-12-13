@@ -13,12 +13,6 @@ const Navbar = () => {
         to="/"
         className={({ isActive }) => (isActive ? activeLink : "text-white")}
       >
-        HOME
-      </NavLink>
-      <NavLink
-        to="/editor"
-        className={({ isActive }) => (isActive ? activeLink : "text-white")}
-      >
         EDITOR
       </NavLink>
       <NavLink
