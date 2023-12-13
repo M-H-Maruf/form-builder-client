@@ -1,12 +1,13 @@
 import { Outlet } from "react-router-dom";
 
 import './App.css'
+import Navbar from './components/shared/Navbar';
 
 function App() {
 
   return (
     <>
-      <h1>Form Craft</h1>
+      <Navbar></Navbar>
       <Outlet></Outlet>
     </>
   )
